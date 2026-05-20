@@ -8,6 +8,17 @@ Install the CLI from npm: <https://www.npmjs.com/package/@agentify/cli>.
 
 This repository is the public issue and discussion tracker for Agentify Chat. The open source code release is coming. For now, this repository intentionally does not contain backend code or implementation source.
 
+![Agentify Chat local wall architecture](./diagram.png)
+
+## Install
+
+```bash
+npm install -g @agentify/cli
+agentify --help
+```
+
+Current public CLI release: `0.2.19`.
+
 ## The local wall
 
 Agentify Chat is built around a local wall: the server routes encrypted work, but the paired computer is the place where repo access, runner execution, decryption, and long-lived local state live.
