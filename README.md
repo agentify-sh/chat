@@ -10,6 +10,15 @@ This repository is the public issue and discussion tracker for Agentify Chat. Th
 
 ![Agentify Chat local wall architecture](./diagram.png)
 
+## Documentation
+
+- [Docs overview](./docs/README.md)
+- [Continuity and local memory](./docs/continuity.md)
+- [Fresh mode, persistent mode, and orchestration](./docs/runner-modes-and-orchestration.md)
+- [Context packs and token usage](./docs/context-packs-and-token-usage.md)
+- [Slash commands and natural-language routing](./docs/commands-and-routing.md)
+- [Privacy, storage, and the local wall](./docs/privacy-and-storage.md)
+
 ## Install
 
 ```bash
@@ -17,7 +26,7 @@ npm install -g @agentify/cli
 agentify --help
 ```
 
-Current public CLI release: `0.2.19`.
+Current public CLI release: `0.2.22`.
 
 ## The local wall
 
